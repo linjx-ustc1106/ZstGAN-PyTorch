@@ -11,6 +11,7 @@ PyTorch 0.4.0
 1. Downloading CUB and FLO training and testing dataset following [CUB and FLO](https://pan.baidu.com/s/1m4a4PFpjFNMNLIdE8TlYAQ) with password `n6qd`. Or you can follow the [StackGAN](https://github.com/hanzhanggit/StackGAN) to prepare these two datasets.
 
 2. Unzip the Data.zip and organize the CUB and FLO training and testing sets as:
+
        Data
        ├── flowers
        |   ├── train
