@@ -29,7 +29,7 @@ PyTorch 0.4.0
    `$ python main.py --mode train --model_dir bird --datadir Data/birds/ --c_dim 200 --batch_size 8 --nz_num 312 --ft_num 2048  --lambda_mut 80`
 5. Test ZstGAN on unseen FLO: 
 
-`$ python main.py --mode test  --model_dir flower --datadir Data/flowers/ --c_dim 102  --test_iters 200000`
+   `$ python main.py --mode test  --model_dir flower --datadir Data/flowers/ --c_dim 102  --test_iters 200000`
 6. Test ZstGAN on unseen CUB: 
 
-`$ python main.py --mode test  --model_dir bird --datadir Data/birds/ --c_dim 200  --test_iters 200000`
+   `$ python main.py --mode test  --model_dir bird --datadir Data/birds/ --c_dim 200  --test_iters 200000`
