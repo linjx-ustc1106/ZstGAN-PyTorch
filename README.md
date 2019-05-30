@@ -21,22 +21,30 @@ PyTorch 0.4.0
        |   ├── test
        |   └── ...
     
-3. Train ZstGAN on FLO:
+3. Train ZstGAN on seen domains of FLO:
 
    `$ python main.py --mode train --model_dir flower --datadir Data/flowers/ --c_dim 102 --batch_size 8 --nz_num 312 --ft_num 2048 --lambda_mut 200`
-4. Train ZstGAN on CUB:
+4. Train ZstGAN on seen domains of CUB:
 
    `$ python main.py --mode train --model_dir bird --datadir Data/birds/ --c_dim 200 --batch_size 8 --nz_num 312 --ft_num 2048  --lambda_mut 80`
-5. Test ZstGAN on unseen FLO: 
+5. Test ZstGAN on unseen domains of FLO: 
 
    `$ python main.py --mode test  --model_dir flower --datadir Data/flowers/ --c_dim 102  --test_iters 200000`
-6. Test ZstGAN on unseen CUB: 
+6. Test ZstGAN on unseen domains of CUB: 
 
    `$ python main.py --mode test  --model_dir bird --datadir Data/birds/ --c_dim 200  --test_iters 200000`
  # Results:
- ### 1. Image translation on unseen FLO at iterations 200000:
+ ### 1. Image translation on seen domains of FLO at iterations 200000:
+  **# Results of ZstGAN**:
+  
+ ### 1. Image translation on unseen domains of FLO at iterations 200000:
   **# Results of V-ZstGAN**:
+  
   **# Results of A-ZstGAN**:
- ### 2. Image translation on unseen CUB at iterations 200000:
+ ### 2. Image translation on seen domains of CUB at iterations 200000:
+  **# Results of ZstGAN**:
+
+ ### 2. Image translation on unseen domains of CUB at iterations 200000:
   **# Results of V-ZstGAN**:
+  
   **# Results of A-ZstGAN**:
