@@ -79,7 +79,7 @@ if __name__ == '__main__':
     parser.add_argument('--c_pre_iters', type=int, default=20000, help='number of  iterations for pre-training C')
 
     # Test configuration.
-    parser.add_argument('--test_iters', type=int, default=300000, help='test model from this step')
+    parser.add_argument('--test_iters', type=int, default=200000, help='test model from this step')
 
     # Miscellaneous.
     parser.add_argument('--num_workers', type=int, default=1)
