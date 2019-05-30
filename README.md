@@ -18,9 +18,9 @@ PyTorch 0.4.0
        |   ├── test
        |   └── ...
        ├── birds
-       |   ├── train
-       |   ├── test
-       |   └── ...
+           ├── train
+           ├── test
+           └── ...
     
 3. Train ZstGAN on seen domains of FLO:
 
