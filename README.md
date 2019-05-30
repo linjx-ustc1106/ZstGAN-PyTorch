@@ -7,7 +7,7 @@ Python 3.6
 PyTorch 0.4.0
 
 # Usage:
-### Multiple identity translation
+### Unsupervised Zero-Shot Image-to-Image Transaltion
 1. Downloading CUB and FLO training and testing dataset following [CUB and FLO](https://pan.baidu.com/s/1m4a4PFpjFNMNLIdE8TlYAQ) with password `n6qd`. Or you can follow the [StackGAN](https://github.com/hanzhanggit/StackGAN) to prepare these two datasets.
 
 2. Unzip the Data.zip and organize the CUB and FLO training and testing sets as:
@@ -33,3 +33,10 @@ PyTorch 0.4.0
 6. Test ZstGAN on unseen CUB: 
 
    `$ python main.py --mode test  --model_dir bird --datadir Data/birds/ --c_dim 200  --test_iters 200000`
+ # Results:
+ ### 1. Image translation on unseen FLO at iterations 200000:
+  **# Results of V-ZstGAN**:
+  **# Results of A-ZstGAN**:
+ ### 2. Image translation on unseen CUB at iterations 200000:
+  **# Results of V-ZstGAN**:
+  **# Results of A-ZstGAN**:
