@@ -1,6 +1,6 @@
 # ZstGAN-PyTorch
 PyTorch Implementation of "ZstGAN: An Adversarial Approach for Unsupervised Zero-Shot Image-to-Image Translation"
-<img src="examples/framework.png" />
+<img src="examples/framework.jpg" />
 # Dependency:
 Python 3.6
 
