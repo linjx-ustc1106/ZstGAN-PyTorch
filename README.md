@@ -37,9 +37,9 @@ PyTorch 0.4.0
  # Results:
  ### 1. Image translation on unseen domains of FLO at iterations 140000:
   **# Results of V-ZstGAN**:
-  
+  <img src="examples/FLO_v_150000.jpg" />
   **# Results of A-ZstGAN**:
-
+  <img src="examples/FLO_a_150000.jpg" />
  ### 2. Image translation on unseen domains of CUB at iterations 140000:
   **# Results of V-ZstGAN**:
   
