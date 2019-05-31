@@ -58,7 +58,7 @@ if __name__ == '__main__':
     parser.add_argument('--d_repeat_num', type=int, default=6, help='number of strided conv layers in D')
     parser.add_argument('--n_blocks', type=int, default=0, help='number of res conv layers in C')
     parser.add_argument('--lambda_mut', type=float, default=10, help='weight for multual information  loss')
-    parser.add_argument('--lambda_rec', type=float, default=10, help='weight for reconstruction loss')
+    parser.add_argument('--lambda_rec', type=float, default=1, help='weight for reconstruction loss')
     parser.add_argument('--lambda_gp', type=float, default=10, help='weight for gradient penalty')
     parser.add_argument('--ft_num', type=int, default=2048, help='number of ds feature')
     parser.add_argument('--nz_num', type=int, default=312, help='number of noise feature')
