@@ -36,11 +36,20 @@ PyTorch 0.4.0
    `$ python main.py --mode test  --model_dir bird --datadir Data/birds/ --c_dim 200  --test_iters 200000`
  # Results:
  ### 1. Image translation on unseen domains of FLO at iterations 150000:
-  **# Results of V-ZstGAN**:
-  <img src="examples/FLO_v_150000.jpg" width="50%" />
-  **# Results of A-ZstGAN**:
-  <img src="examples/FLO_a_150000.jpg" width="50%" />
- ### 2. Image translation on unseen domains of CUB at iterations 150000:
+ 
   **# Results of V-ZstGAN**:
   
+  <img src="examples/FLO_v_150000.jpg" width="50%" />
+  
   **# Results of A-ZstGAN**:
+  
+  <img src="examples/FLO_a_150000.jpg" width="50%" />
+  
+ ### 2. Image translation on unseen domains of CUB at iterations 150000:
+ 
+  **# Results of V-ZstGAN**:
+  
+  
+  
+  **# Results of A-ZstGAN**:
+  
