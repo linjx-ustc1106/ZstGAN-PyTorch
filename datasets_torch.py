@@ -170,18 +170,6 @@ class Dataset(object):
         if self._index_in_epoch > self._num_examples:
             ret_list = []
             return ret_list
-            '''
-            # Finished epoch
-            self._epochs_completed += 1
-            # Shuffle the data
-            self._perm = np.arange(self._num_examples)
-            np.random.shuffle(self._perm)
-
-            # Start next epoch
-            start = 0
-            self._index_in_epoch = batch_size
-            assert batch_size <= self._num_examples
-            '''
         end = self._index_in_epoch
 
         current_ids = self._perm[start:end]
