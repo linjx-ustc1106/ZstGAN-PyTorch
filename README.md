@@ -27,11 +27,11 @@ PyTorch 0.4.0
    `$ python main.py --mode train --model_dir flower --datadir Data/flowers/ --c_dim 102 --batch_size 8 --nz_num 312 --ft_num 2048 --lambda_mut 200`
 4. Train ZstGAN on seen domains of CUB:
 
-   `$ python main.py --mode train --model_dir bird --datadir Data/birds/ --c_dim 200 --batch_size 8 --nz_num 312 --ft_num 2048  --lambda_mut 80`
-5. Test ZstGAN on unseen domains of FLO: 
+   `$ python main.py --mode train --model_dir bird --datadir Data/birds/ --c_dim 200 --batch_size 8 --nz_num 312 --ft_num 2048  --lambda_mut 50`
+5. Test ZstGAN on unseen domains of FLO at iteration 200000: 
 
    `$ python main.py --mode test  --model_dir flower --datadir Data/flowers/ --c_dim 102  --test_iters 200000`
-6. Test ZstGAN on unseen domains of CUB: 
+6. Test ZstGAN on unseen domains of CUB at iteration 200000: 
 
    `$ python main.py --mode test  --model_dir bird --datadir Data/birds/ --c_dim 200  --test_iters 200000`
  # Results:
@@ -49,7 +49,8 @@ PyTorch 0.4.0
  
   **# Results of V-ZstGAN**:
   
-  
+  <img src="examples/CUB_v_150000.jpg" width="50%" />
   
   **# Results of A-ZstGAN**:
   
+  <img src="examples/CUB_a_150000.jpg" width="50%" />
